@@ -1,0 +1,29 @@
+/* CONFIGS */
+@import url('styles/reset.scss');
+@import url('styles/fonts.scss');
+@import url('styles/variables.scss');
+@import url('styles/typography.scss');
+@import url('styles/global.scss');
+
+
+/* ATOMS */
+@import url('components/01-atoms/button/button.scss');
+@import url('components/01-atoms/link/link.scss');
+@import url('components/01-atoms/heading/heading.scss');
+@import url('components/01-atoms/input/input.scss');
+@import url('components/01-atoms/icon/icon.scss');
+@import url('components/01-atoms/social-media-icons/social-media-icons.scss');
+@import url('components/01-atoms/hamburger/hamburger.scss');
+
+/* MOLECULES */
+@import url('components/02-molecules/card/card.scss');
+@import url('components/02-molecules/output/output.scss');
+
+/* ORGANISMS */
+@import url('components/03-organisms/desktop-navigation/desktop-navigation.scss');
+@import url('components/03-organisms/mobile-navigation/mobile-navigation.scss');
+@import url('components/03-organisms/hero/hero.scss');
+@import url('components/03-organisms/controller/controller.scss');
+@import url('components/03-organisms/cards/cards.scss');
+@import url('components/03-organisms/cta/cta.scss');
+@import url('components/03-organisms/footer/footer.scss');

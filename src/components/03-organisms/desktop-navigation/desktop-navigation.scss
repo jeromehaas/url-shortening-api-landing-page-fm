@@ -1,0 +1,55 @@
+@import 'styles/variables.scss';
+
+.desktop-navigation {
+
+	&__inner {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 40px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	&__links, .links {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 24px;
+
+		&__item {
+
+			
+			&:hover {
+				color: $black !important;
+			}
+		
+		}
+
+	}
+
+	&__actions, .actions {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 24px;
+		margin-left: auto;
+		
+		&__item {
+			align-self: center;
+
+		&:hover {
+			color: $black !important;
+		}
+
+		}
+
+	}
+
+	@media (max-width: 800px) {
+		display: none;
+	}
+	
+}

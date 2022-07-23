@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.card {
+	position: relative;
+	background-color: $white;
+	padding: 80px 32px 40px 32px;
+	margin-top: 44px;
+	border-radius: 8px;
+
+	&__icon {
+		position: absolute;;
+		top: -44px;
+	}
+
+	&__heading {
+		margin-bottom: 16px;
+	}
+
+	&__paragraph {
+		color: $grey-100 !important;
+	}
+
+}

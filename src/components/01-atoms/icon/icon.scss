@@ -1,0 +1,16 @@
+@import 'styles/variables.scss';
+
+.icon {
+	display: inline-block;
+	border-radius: 50%;
+	width: 88px;
+	height: 88px;
+	background-color: $violet-100;
+	display: grid;
+	place-items: center;
+
+	&__symbol {
+		width: 40px;
+	}
+
+}

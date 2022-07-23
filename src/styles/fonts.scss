@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-thin.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-thin.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-black.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-light.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-light.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-medium.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-medium.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-regular.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-regular.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-regular.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-bold.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-bold.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-splay: block;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src:
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-black.ttf') format('ttf'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-black.woff2') format('woff2'),
+		local('fonts/poppins'), url('/public/fonts/poppins/poppins-black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: block;
+}

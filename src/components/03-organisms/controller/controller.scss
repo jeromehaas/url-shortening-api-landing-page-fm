@@ -1,0 +1,96 @@
+@import 'styles/variables.scss';
+
+.controller {
+	background-color: $blue-40;
+	margin-top: 80px;
+
+	&__inner {
+		position: relative;
+		top: -80px;
+	}
+
+	&__form, .form {
+		position: relative;
+		overflow: hidden;
+		background-color: $violet-100;
+		padding: 48px 64px;
+		display: flex;
+		flex-direction: row;
+		align-self: flex-start;
+		justify-content: flex-start;
+		gap: 24px;
+		border-radius: 8px;
+		margin-bottom: 24px;
+		
+		&__input {
+			width: 100%;
+			display: block;
+			z-index: 5;
+			position: relative;
+		}
+		
+		&__button {
+			min-width: 240px;
+			z-index: 5;
+			height: 62px;
+			position: relative;
+		}
+
+		&__blob, .blob {
+			position: absolute;
+
+			&--a {
+				width: 800px; 
+				top: -50%;
+				left: -25%;
+			}
+
+			&--b {
+				width: 1200px; 
+				bottom: -200%;
+				right: -50%;
+			}
+
+		}
+		
+	}
+
+	&__output-wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	@media (max-width: 950px) {
+
+		&__inner {
+			top: -80px;
+
+		}
+
+	&__form, .form {
+		position: relative;
+		background-color: $violet-100;
+		padding: 48px 64px;
+		display: flex;
+		flex-direction: column;
+		
+		&__button {
+			min-width: unset;
+			width: 100%;
+		}
+			
+		}
+
+	} 
+
+
+	@media (max-width: 650px) {
+
+	&__form, .form {
+		padding: 24px;
+	}
+
+	}
+
+}

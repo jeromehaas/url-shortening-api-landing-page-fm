@@ -1,0 +1,32 @@
+@import 'styles/variables.scss';
+
+.button {
+	display: inline-block;
+	padding: 16px 40px;
+	background: linear-gradient($green-80, $green-60);
+	color: $white;
+	text-decoration: none;
+	border-radius: 32px;
+	text-align: center;
+
+	&--round {
+		border-radius: 32px;
+	}
+
+	&--squarish {
+		border-radius: 8px;
+	}
+
+	&--small {
+		padding: 8px 20px;
+	}
+
+	&--clicked {
+		background: $violet-100 !important;
+	}
+
+	&:hover {
+		background: linear-gradient(darken($green-80, 5%), darken($green-60, 5%));
+	}
+
+}

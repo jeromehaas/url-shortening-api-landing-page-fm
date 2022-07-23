@@ -1,0 +1,8 @@
+@import 'styles/variables';
+
+.link {
+	display: inline-block;
+	color: $grey-100;
+	text-decoration: none;
+	align-self: start;
+}

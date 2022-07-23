@@ -1,0 +1,46 @@
+@import "styles/variables.scss";
+
+.input {
+	width: 100%;
+
+	&__input {
+		padding: 16px 32px;
+		border: 0;
+		border-radius: 8px;
+		outline: 0;
+		background-color: $white;
+		width: 100%;
+		color: $black;
+		height: 62px;
+
+		&::placeholder {
+			color: $black;
+			opacity: 0.5;
+		}
+	}
+
+	&__error-text {
+		display: none;
+		padding: 8px 0;
+		color: $red-100;
+	}
+
+	&--error {
+
+		& .input__input {
+			padding-left: 32px;
+			border: 3px solid $red-100;
+
+			&::placeholder {
+				color: $red-100 !important;
+			}
+
+		}
+
+		& .input__error-text {
+			display: block;
+		}
+
+	}
+
+}

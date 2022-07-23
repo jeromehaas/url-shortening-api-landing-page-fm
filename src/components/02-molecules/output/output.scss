@@ -1,0 +1,59 @@
+@import 'styles/variables.scss';
+
+.output {
+    background-color: $white;
+    padding: 24px;
+    border-radius: 8px;
+    display: grid;
+    align-items: center;  
+    grid-template-columns: auto auto 120px;
+    gap: 24px;
+
+
+    &__link, .link {
+        text-decoration: none;
+
+        &--original {
+            color: $black;
+        } 
+
+        &--short {
+            text-align: right;
+            background: linear-gradient( $green-60, $green-80);
+            background-clip: text ;
+            box-decoration-break: clone;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-box-decoration-break: clone;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: auto;
+        gap: 0;
+        padding: 0;
+
+        &__link, .link {
+                text-decoration: none;
+
+                &--original {
+                    border-bottom: 1px solid $blue-40;
+                    padding: 24px;
+                }
+
+                &--short {
+                    text-align: left;
+                    padding: 24px;
+                }
+
+            }
+
+            &__button {
+                margin: 0 24px 24px 24px ;
+                padding: 16px;
+            }
+
+        }
+
+}

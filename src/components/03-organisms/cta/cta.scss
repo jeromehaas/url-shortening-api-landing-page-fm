@@ -1,0 +1,53 @@
+@import 'styles/variables.scss';
+
+.cta {
+	background-color: $violet-100;
+	overflow: hidden;
+	position: relative;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;;
+		padding: 64px;
+	}
+
+	&__heading {
+		color: $white;
+		margin-bottom: 32px;
+		text-align: center;
+		z-index: 5;
+	}
+
+	&__button {
+		z-index: 5;
+	}
+
+
+	&__blob, .blob {
+			position: absolute;
+
+			&--a {
+				width: 800px; 
+				top: -150%;
+				left: -25%;
+			}
+
+			&--b {
+				width: 700px; 
+				bottom: -100%;
+				right: -20%;
+			}
+
+			&--c {
+				width: 600px; 
+				bottom: -150%;
+				left: 20%;
+			}
+
+
+		}
+
+
+}
